@@ -105,3 +105,61 @@ body {
     transform: none;
     box-shadow: none;
 }
+
+.mainStatement {
+    font-family: 'Metropolitan', sans-serif;
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 600;
+    color: #0f2a4a;
+    margin: 0 40px 20px;
+}
+
+.subStatement {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b7280;
+    margin: 0 40px 20px;
+    max-width: 550px;
+    line-height: 1.5;
+}
+
+.labelForDropDown {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f2a4a;
+    margin: 0 40px 8px;
+}
+
+.experienceDropDown {
+    display: block;
+    margin: 0 40px 20px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    color: #0f2a4a;
+    background-color: #ffffff;
+    border: 2.5px solid #0f2a4a;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    min-width: 192px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230f2a4a' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 14px;
+}
+
+.experienceDropDownLable {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0f2a4a;
+    margin: 0 40px 8px;
+}
