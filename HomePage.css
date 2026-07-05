@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-bottom: 15px;
+}
+
+.oval {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 7px 15px;
+    border-radius: 30px;
+    border: 2px solid #2d2d2d;
+    color: #2d2d2d;
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+}
+
+.oval:active {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.oval:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
