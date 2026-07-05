@@ -1,30 +1,107 @@
+header {
+    background-color: #eaf6f9;
+    border-bottom: 2px solid #0f2a4a;
+    padding: 24px 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.headerTitleSearchRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    min-height: 48px;
+    margin-bottom: 28px;
+}
+
+.siteTitle {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    color: #0f2a4a;
+    letter-spacing: -0.5px;
+    z-index: 2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcfbf9;
+}
+
+.searchbox {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 550px;
+}
+
+.searchicon {
+    position: absolute;
+    left: 16px;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+}
+
+.searchicon circle,
+.searchicon line {
+    stroke: #4a6b82;
+}
+
+.searchinput {
+    width: 100%;
+    padding: 7px 10px;
+    font-size: 13px;
+    font-family: inherit;
+    border: 2.5px solid #2d2d2d;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #2d2d2d;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.searchinput::placeholder {
+    color: #6b889e;
+}
+
+
 .navigation {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    padding-bottom: 15px;
 }
 
 .oval {
     display: inline-block;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
     font-style: italic;
-    padding: 7px 15px;
+    padding: 9px 20px;
     border-radius: 30px;
-    border: 2px solid #2d2d2d;
-    color: #2d2d2d;
+    border: 2.5px solid #0f2a4a;
+    color: #0f2a4a;
     background-color: #ffffff;
     transition: all 0.2s ease;
 }
 
-.oval:active {
-    background-color: #2d2d2d;
+.oval.active {
+    background-color: #0f2a4a;
     color: #ffffff;
 }
 
 .oval:hover {
     transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 0px rgba(30, 30, 30, 1);
+}
+
+.oval.active:hover {
+    transform: none;
+    box-shadow: none;
 }
