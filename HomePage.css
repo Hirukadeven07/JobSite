@@ -1,48 +1,126 @@
-header {
-    background-color: #eaf6f9;
-    border-bottom: 2px solid #0f2a4a;
-    padding: 24px 40px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    box-sizing: border-box;
-}
-
-.headerTitleSearchRow {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    min-height: 48px;
-    margin-bottom: 28px;
-}
-
-.siteTitle {
-    margin: 0;
-    font-size: 28px;
-    font-weight: 700;
-    font-style: italic;
-    color: #0f2a4a;
-    letter-spacing: -0.5px;
-    z-index: 2;
-}
-
 body {
     margin: 0;
     padding: 0;
     background-color: #fcfbf9;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+/* ===== HEADER ===== */
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 16px 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.headerRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+/* --- Brand (logo + site title) --- */
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.logoBox {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #14213d;
+    border-bottom: 3px solid #f97316;
+    border-radius: 8px;
+    font-family: 'Metropolitan', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.siteTitle {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    color: #14213d;
+    letter-spacing: -0.3px;
+    white-space: nowrap;
+}
+
+/* --- Navigation --- */
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 28px;
+    flex-shrink: 0;
+}
+
+.navLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    color: #4b5563;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.navLink:hover {
+    color: #14213d;
+}
+
+.navLink svg {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    flex-shrink: 0;
+}
+
+.navBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: 999px;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* --- Search box --- */
+
 .searchbox {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 550px;
+    position: relative;
+    flex: 1 1 auto;
+    max-width: 420px;
 }
 
 .searchicon {
     position: absolute;
+    top: 50%;
     left: 16px;
+    transform: translateY(-50%);
     width: 16px;
     height: 16px;
     pointer-events: none;
@@ -50,61 +128,49 @@ body {
 
 .searchicon circle,
 .searchicon line {
-    stroke: #4a6b82;
+    stroke: #9ca3af;
 }
 
 .searchinput {
     width: 100%;
-    padding: 7px 10px;
-    font-size: 13px;
+    padding: 11px 16px 11px 42px;
+    font-size: 14px;
     font-family: inherit;
-    border: 2.5px solid #2d2d2d;
+    border: none;
     border-radius: 30px;
-    background-color: #ffffff;
+    background-color: #f3f4f6;
     color: #2d2d2d;
     outline: none;
     box-sizing: border-box;
 }
 
 .searchinput::placeholder {
-    color: #6b889e;
+    color: #9ca3af;
 }
 
+/* --- Apply now button --- */
 
-.navigation {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.oval {
+.applyBtn {
+    flex-shrink: 0;
     display: inline-block;
     text-decoration: none;
-    font-size: 13px;
-    font-weight: bold;
-    font-style: italic;
-    padding: 9px 20px;
-    border-radius: 30px;
-    border: 2.5px solid #0f2a4a;
-    color: #0f2a4a;
-    background-color: #ffffff;
-    transition: all 0.2s ease;
-}
-
-.oval.active {
-    background-color: #0f2a4a;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
     color: #ffffff;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 22px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
-.oval:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 0px rgba(30, 30, 30, 1);
+.applyBtn:hover {
+    background-color: #1d4ed8;
 }
 
-.oval.active:hover {
-    transform: none;
-    box-shadow: none;
-}
+/* ===== HERO / FILTERS ===== */
 
 .mainStatement {
     font-family: 'Metropolitan', sans-serif;
@@ -162,4 +228,116 @@ body {
     font-weight: 600;
     color: #0f2a4a;
     margin: 0 40px 8px;
+}
+
+/* ===== VACANCIES ===== */
+
+.vacanciesSection {
+    margin: 40px 40px 0;
+}
+
+.vacanciesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.vacanciesTitle {
+    font-family: 'Metropolitan', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+    color: #2d2d2d;
+    margin: 0;
+}
+
+.vacanciesCount {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.jobList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.jobCard {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #2d2d2d;
+    border-radius: 16px;
+    padding: 20px 24px;
+    background-color: #ffffff;
+}
+
+.jobIcon {
+    width: 48px;
+    height: 48px;
+    border: 2px dashed #c9c9c9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Metropolitan', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2d2d2d;
+    flex-shrink: 0;
+}
+
+.jobDetails {
+    flex-grow: 1;
+}
+
+.jobTitleRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+}
+
+.jobTitle {
+    font-family: 'Metropolitan', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2d2d2d;
+}
+
+.jobTag {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #0f2a4a;
+    border: 1.5px solid #0f2a4a;
+    border-radius: 30px;
+    padding: 3px 12px;
+}
+
+.jobMeta {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 6px;
+}
+
+.jobSalary {
+    font-family: 'Metropolitan', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2d2d2d;
+}
+
+.jobArrow {
+    font-size: 20px;
+    color: #0f2a4a;
+    flex-shrink: 0;
 }
