@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs>
+    <job>
+        <slug>senior-software-engineer</slug>
+        <title>Senior Software Engineer</title>
+        <company>Stripe</company>
+        <location>San Francisco, CA</location>
+        <department>Software Engineering</department>
+        <experience>senior</experience>
+        <trending>true</trending>
+        <salaryMin>165</salaryMin>
+        <salaryMax>210</salaryMax>
+        <employment>Full-time</employment>
+        <posted>2 days ago</posted>
+        <aboutRole>Design and build reliable, high-scale payment APIs used by millions of businesses. You will own services end to end, from architecture through production operation, working alongside a small team of experienced backend engineers.</aboutRole>
+        <responsibilities>
+            <item>Design and implement APIs that process payments at very high reliability and scale</item>
+            <item>Own services end to end, from architecture and code review through on-call operation</item>
+            <item>Partner with product and infrastructure teams to plan and scope new features</item>
+            <item>Improve system performance, observability, and incident response practices</item>
+        </responsibilities>
+        <successLooksLike>
+            <item>Services you own meet strict reliability and latency targets in production</item>
+            <item>Other engineers regularly seek out your input on architecture decisions</item>
+            <item>Incidents in your area of ownership are rare and resolved quickly when they happen</item>
+        </successLooksLike>
+        <requiredSkills>
+            <item>6+ years building backend services in Go, Java, or Ruby</item>
+            <item>Experience with distributed systems and databases at scale</item>
+            <item>Strong ownership and clear written communication</item>
+            <item>Comfortable operating and debugging services in production</item>
+        </requiredSkills>
+        <desirableSkills>
+            <item>Experience working directly in the payments or fintech space</item>
+            <item>Familiarity with event-driven architectures and message queues</item>
+        </desirableSkills>
+        <whyJoinUs>
+            <item>Work on infrastructure that powers payments for millions of businesses worldwide</item>
+            <item>Small, senior team with a high degree of autonomy and ownership</item>
+            <item>Competitive salary, equity, and comprehensive health benefits</item>
+        </whyJoinUs>
+    </job>
+    <job>
+        <slug>frontend-engineer</slug>
+        <title>Frontend Engineer</title>
+        <company>Airbnb</company>
+        <location>Remote (US)</location>
+        <department>Software Engineering</department>
+        <experience>mid</experience>
+        <trending>false</trending>
+        <salaryMin>140</salaryMin>
+        <salaryMax>180</salaryMax>
+        <employment>Full-time</employment>
+        <posted>4 days ago</posted>
+        <aboutRole>Build fast, accessible interfaces used by hosts and guests around the world. You will work closely with design and product to ship polished, well-tested UI that millions of people rely on every day.</aboutRole>
+        <responsibilities>
+            <item>Build and maintain user-facing features in React across web and mobile web</item>
+            <item>Collaborate with designers to translate mockups into accessible, responsive UI</item>
+            <item>Write unit and integration tests to keep the codebase reliable as it grows</item>
+            <item>Participate in code review and help raise the bar on frontend quality</item>
+        </responsibilities>
+        <successLooksLike>
+            <item>Features you ship are fast, accessible, and work well across devices</item>
+            <item>Your components are reused by other teams without needing rework</item>
+            <item>You catch usability issues during review, before they reach production</item>
+        </successLooksLike>
+        <requiredSkills>
+            <item>3+ years building production React applications</item>
+            <item>Solid grasp of accessibility and responsive design</item>
+            <item>Comfortable working across design, product, and backend teams</item>
+            <item>Experience with component-driven development and testing</item>
+        </requiredSkills>
+        <desirableSkills>
+            <item>Experience with design systems or component libraries</item>
+            <item>Familiarity with performance profiling in the browser</item>
+        </desirableSkills>
+        <whyJoinUs>
+            <item>Fully remote role with a team spread across US time zones</item>
+            <item>Your work directly shapes an experience used by millions of travelers</item>
+            <item>Generous learning stipend and travel credit</item>
+        </whyJoinUs>
+    </job>
+    <job>
+        <slug>backend-engineer-platform</slug>
+        <title>Backend Engineer, Platform</title>
+        <company>Datadog</company>
+        <location>New York, NY</location>
+        <department>Software Engineering</department>
+        <experience>senior</experience>
+        <trending>false</trending>
+        <salaryMin>150</salaryMin>
+        <salaryMax>195</salaryMax>
+        <employment>Full-time</employment>
+        <posted>1 week ago</posted>
+        <aboutRole>Build the internal platform tooling that powers every product team's deployments. You will design APIs and infrastructure that other engineers rely on daily, with a direct impact on how quickly the whole company can ship.</aboutRole>
+        <responsibilities>
+            <item>Design and operate internal platform services used by dozens of product teams</item>
+            <item>Build tooling that simplifies deployments, rollbacks, and service configuration</item>
+            <item>Improve the reliability and scalability of core platform infrastructure</item>
+            <item>Mentor other engineers and help set technical direction for the platform team</item>
+        </responsibilities>
+        <successLooksLike>
+            <item>Product teams ship faster because of tools and infrastructure you've built</item>
+            <item>Platform incidents are rare, well-understood, and quickly resolved</item>
+            <item>Engineers across the company describe the platform as easy to work with</item>
+        </successLooksLike>
+        <requiredSkills>
+            <item>5+ years working on infrastructure or platform teams</item>
+            <item>Experience with Kubernetes and container orchestration</item>
+            <item>Track record of mentoring other engineers</item>
+            <item>Strong understanding of service reliability and observability practices</item>
+        </requiredSkills>
+        <desirableSkills>
+            <item>Experience building internal developer tools or CLIs</item>
+            <item>Familiarity with infrastructure-as-code tooling such as Terraform</item>
+        </desirableSkills>
+        <whyJoinUs>
+            <item>High-leverage role where your work multiplies the productivity of other teams</item>
+            <item>Well-resourced platform team with strong engineering culture</item>
+            <item>Competitive compensation and equity package</item>
+        </whyJoinUs>
+    </job>
+    <job>
+        <slug>data-scientist</slug>
+        <title>Data Scientist</title>
+        <company>Netflix</company>
+        <location>Los Gatos, CA</location>
+        <department>Data Science</department>
+        <experience>mid</experience>
+        <trending>true</trending>
+        <salaryMin>155</salaryMin>
+        <salaryMax>205</salaryMax>
+        <employment>Full-time</employment>
+        <posted>3 days ago</posted>
+        <aboutRole>Analyze viewing and engagement data to guide product and content decisions. You will partner with engineering and product teams to turn insights into action that shapes what members see and how they experience the product.</aboutRole>
+        <responsibilities>
+            <item>Analyze engagement and viewing data to surface actionable product insights</item>
+            <item>Design and evaluate experiments to test product and content hypotheses</item>
+            <item>Build dashboards and reporting that product teams rely on regularly</item>
+            <item>Present findings and recommendations directly to product leadership</item>
+        </responsibilities>
+        <successLooksLike>
+            <item>Your analysis directly informs product and content decisions</item>
+            <item>Experiments you design produce clear, actionable results</item>
+            <item>Stakeholders trust your numbers and come back to you with new questions</item>
+        </successLooksLike>
+        <requiredSkills>
+            <item>3+ years in an applied data science or analytics role</item>
+            <item>Strong SQL and experience with Python or R</item>
+            <item>Comfortable presenting findings to non-technical stakeholders</item>
+            <item>Solid understanding of experiment design and statistical inference</item>
+        </requiredSkills>
+        <desirableSkills>
+            <item>Experience with large-scale data pipelines or distributed data tools</item>
+            <item>Background in media, streaming, or recommendation analytics</item>
+        </desirableSkills>
+        <whyJoinUs>
+            <item>Your insights influence decisions seen by hundreds of millions of members</item>
+            <item>Access to rich, large-scale datasets and strong analytics infrastructure</item>
+            <item>Culture that values freedom and responsibility over process</item>
+        </whyJoinUs>
+    </job>
+    <job>
+        <slug>machine-learning-engineer</slug>
+        <title>Machine Learning Engineer</title>
+        <company>Spotify</company>
+        <location>Remote (US)</location>
+        <department>Data Science</department>
+        <experience>senior</experience>
+        <trending>true</trending>
+        <salaryMin>160</salaryMin>
+        <salaryMax>210</salaryMax>
+        <employment>Full-time</employment>
+        <posted>5 days ago</posted>
+        <aboutRole>Build and ship recommendation models that reach millions of listeners. You will own the full lifecycle from experimentation through production deployment, working closely with data scientists and backend engineers.</aboutRole>
+        <responsibilities>
+            <item>Design, train, and evaluate models that power music and podcast recommendations</item>
+            <item>Own the full ML lifecycle from experimentation through production deployment</item>
+            <item>Build infrastructure to monitor and retrain models safely at scale</item>
+            <item>Collaborate with data scientists and product teams to define success metrics</item>
+        </responsibilities>
+        <successLooksLike>
+            <item>Models you ship measurably improve recommendation quality</item>
+            <item>Production ML systems you own are stable and easy to monitor</item>
+            <item>You can move a promising experiment to production without major rework</item>
+        </successLooksLike>
+        <requiredSkills>
+            <item>5+ years building and deploying ML models in production</item>
+            <item>Experience with recommendation systems or ranking models</item>
+            <item>Strong software engineering fundamentals</item>
+            <item>Comfortable owning models through the full lifecycle, not just experimentation</item>
+        </requiredSkills>
+        <desirableSkills>
+            <item>Experience with large-scale embedding or retrieval systems</item>
+            <item>Background working with audio, media, or recommendation data</item>
+        </desirableSkills>
+        <whyJoinUs>
+            <item>Your models directly shape what millions of listeners discover every day</item>
+            <item>Fully remote with flexible working hours across US time zones</item>
+            <item>Strong ML infrastructure and a team that ships frequently</item>
+        </whyJoinUs>
+    </job>
+    <job>
+        <slug>business-analyst</slug>
+        <title>Business Analyst</title>
+        <company>Visa</company>
+        <location>Austin, TX</location>
+        <department>Business Analysis</department>
+        <experience>junior</experience>
+        <trending>false</trending>
+        <salaryMin>95</salaryMin>
+        <salaryMax>125</salaryMax>
+        <employment>Full-time</employment>
+        <posted>1 day ago</posted>
+        <aboutRole>Support cross-functional teams by turning raw data into clear, actionable reporting. You will help track key business metrics and surface trends to leadership, working closely with finance, product, and operations teams.</aboutRole>
+        <responsibilities>
+            <item>Build and maintain recurring reports and dashboards for business stakeholders</item>
+            <item>Investigate metric changes and summarize findings in clear, concise writeups</item>
+            <item>Partner with finance and operations teams to track key business metrics</item>
+            <item>Support ad hoc analysis requests from leadership on short timelines</item>
+        </responsibilities>
+        <successLooksLike>
+            <item>Stakeholders can self-serve answers from dashboards you've built</item>
+            <item>Your reporting is accurate and rarely needs correction after the fact</item>
+            <item>You proactively flag metric anomalies before stakeholders notice them</item>
+        </successLooksLike>
+        <requiredSkills>
+            <item>1-2 years in a business analysis or reporting role</item>
+            <item>Comfortable working in Excel, SQL, and dashboard tools</item>
+            <item>Strong attention to detail and clear communication</item>
+            <item>Ability to translate business questions into concrete analysis</item>
+        </requiredSkills>
+        <desirableSkills>
+            <item>Experience with BI tools such as Tableau or Looker</item>
+            <item>Background in payments, fintech, or financial services</item>
+        </desirableSkills>
+        <whyJoinUs>
+            <item>Clear path to grow into a senior analyst or strategy role</item>
+            <item>Exposure to leadership and cross-functional teams early in your career</item>
+            <item>Structured onboarding and mentorship from senior analysts</item>
+        </whyJoinUs>
+    </job>
+    <job>
+        <slug>senior-business-analyst</slug>
+        <title>Senior Business Analyst</title>
+        <company>Salesforce</company>
+        <location>Remote (US)</location>
+        <department>Business Analysis</department>
+        <experience>senior</experience>
+        <trending>false</trending>
+        <salaryMin>115</salaryMin>
+        <salaryMax>150</salaryMax>
+        <employment>Full-time</employment>
+        <posted>6 days ago</posted>
+        <aboutRole>Lead analysis on strategic initiatives spanning multiple business units. You will define requirements, build models, and present recommendations directly to leadership on decisions that shape company strategy.</aboutRole>
+        <responsibilities>
+            <item>Lead end-to-end analysis on strategic initiatives spanning multiple teams</item>
+            <item>Build financial and operational models to support key business decisions</item>
+            <item>Define requirements and success metrics alongside product and finance leaders</item>
+            <item>Present findings and recommendations directly to senior leadership</item>
+        </responsibilities>
+        <successLooksLike>
+            <item>Leadership relies on your analysis to make major strategic decisions</item>
+            <item>Your models hold up under scrutiny and stand the test of time</item>
+            <item>Junior analysts look to you for guidance on complex problems</item>
+        </successLooksLike>
+        <requiredSkills>
+            <item>5+ years in business analysis, strategy, or consulting</item>
+            <item>Advanced skills in financial or operational modeling</item>
+            <item>Experience influencing decisions at the leadership level</item>
+            <item>Excellent written and verbal communication skills</item>
+        </requiredSkills>
+        <desirableSkills>
+            <item>Experience in enterprise SaaS or B2B software strategy</item>
+            <item>Background working directly with executive leadership teams</item>
+        </desirableSkills>
+        <whyJoinUs>
+            <item>High-visibility role with direct exposure to company strategy</item>
+            <item>Fully remote with a collaborative, senior analyst team</item>
+            <item>Strong compensation with meaningful equity upside</item>
+        </whyJoinUs>
+    </job>
+    <job>
+        <slug>marketing-manager</slug>
+        <title>Marketing Manager</title>
+        <company>Notion</company>
+        <location>San Francisco, CA</location>
+        <department>Marketing</department>
+        <experience>mid</experience>
+        <trending>false</trending>
+        <salaryMin>110</salaryMin>
+        <salaryMax>145</salaryMax>
+        <employment>Full-time</employment>
+        <posted>2 days ago</posted>
+        <aboutRole>Own campaign strategy and execution across paid, lifecycle, and product marketing channels. You will work closely with design and product to grow adoption, reporting directly on what's driving results.</aboutRole>
+        <responsibilities>
+            <item>Plan and execute campaigns across paid, lifecycle, and product marketing channels</item>
+            <item>Partner with design and product teams to align messaging with new launches</item>
+            <item>Track campaign performance and report on what's driving growth</item>
+            <item>Manage budget and channel mix across the marketing calendar</item>
+        </responsibilities>
+        <successLooksLike>
+            <item>Campaigns you run consistently hit or beat growth targets</item>
+            <item>Product and design teams see you as a trusted marketing partner</item>
+            <item>You can clearly explain what's working and why, with data to back it up</item>
+        </successLooksLike>
+        <requiredSkills>
+            <item>3+ years in a marketing management role</item>
+            <item>Experience running multi-channel campaigns end to end</item>
+            <item>Comfortable working with data to guide decisions</item>
+            <item>Strong project management and cross-functional communication skills</item>
+        </requiredSkills>
+        <desirableSkills>
+            <item>Experience marketing a product-led or self-serve SaaS product</item>
+            <item>Familiarity with lifecycle and retention marketing tools</item>
+        </desirableSkills>
+        <whyJoinUs>
+            <item>Direct ownership over campaigns with real budget and autonomy</item>
+            <item>Work closely with a design-led product team on high-visibility launches</item>
+            <item>Competitive salary plus equity in a fast-growing company</item>
+        </whyJoinUs>
+    </job>
+    <job>
+        <slug>content-marketing-specialist</slug>
+        <title>Content Marketing Specialist</title>
+        <company>HubSpot</company>
+        <location>Remote (US)</location>
+        <department>Marketing</department>
+        <experience>junior</experience>
+        <trending>false</trending>
+        <salaryMin>80</salaryMin>
+        <salaryMax>105</salaryMax>
+        <employment>Full-time</employment>
+        <posted>3 days ago</posted>
+        <aboutRole>Create blog posts, guides, and campaigns that help our audience grow their businesses. You will collaborate with design and SEO to plan a consistent content calendar that drives organic traffic and engagement.</aboutRole>
+        <responsibilities>
+            <item>Write blog posts, guides, and email content for a growing audience</item>
+            <item>Plan and maintain a consistent content calendar with design and SEO</item>
+            <item>Optimize existing content for search performance and engagement</item>
+            <item>Collaborate with product marketing on launch content and campaigns</item>
+        </responsibilities>
+        <successLooksLike>
+            <item>Content you publish steadily grows organic traffic and engagement</item>
+            <item>Your writing requires minimal editing before it goes live</item>
+            <item>You consistently hit the content calendar without last-minute scrambles</item>
+        </successLooksLike>
+        <requiredSkills>
+            <item>1-2 years writing content for a marketing or media team</item>
+            <item>Strong writing, editing, and storytelling skills</item>
+            <item>Familiarity with basic SEO best practices</item>
+            <item>Comfortable managing multiple pieces of content at once</item>
+        </requiredSkills>
+        <desirableSkills>
+            <item>Experience writing for a B2B SaaS or software audience</item>
+            <item>Basic familiarity with SEO tools such as Ahrefs or SEMrush</item>
+        </desirableSkills>
+        <whyJoinUs>
+            <item>Your writing reaches a large, engaged audience of business owners</item>
+            <item>Fully remote role with a supportive, collaborative content team</item>
+            <item>Clear path to grow into a senior content or product marketing role</item>
+        </whyJoinUs>
+    </job>
+</jobs>
