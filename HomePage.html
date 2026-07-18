@@ -2,242 +2,153 @@
 <html>
 
 <head>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="HomePage.css">
+    <script>
+        if (localStorage.getItem('techup-theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
+    </script>
 </head>
 
 <body>
     <header>
         <div class="header-inner">
-            <div class="brand">
-                <div class="logo-box">TL</div>
+            <a href="HomePage.html" class="brand">
+                <img src="icon.png" alt="TechUp.lk logo" class="logo-box">
                 <h1>TechUp.lk</h1>
-            </div>
+            </a>
 
-            <nav>
-                <a href="/" id="trendingLink">Trending</a>
-                <a href="/">Salary Insights</a>
-                <a href="/">
-                    Saved
-                    <span class="badge">0</span>
-                </a>
+            <nav id="categoryNav">
+                <a href="HomePage.html?dept=Software%20Engineering" data-dept="Software Engineering">Software
+                    Engineering</a>
+                <a href="HomePage.html?dept=Data%20Science" data-dept="Data Science">Data Science</a>
+                <a href="HomePage.html?dept=Business%20Analysis" data-dept="Business Analysis">Business Analysis</a>
+                <a href="HomePage.html?dept=Marketing" data-dept="Marketing">Marketing</a>
             </nav>
 
             <div class="search-wrap">
                 <input type="text" class="searchinput" placeholder="Search roles or companies">
             </div>
 
-            <button class="apply-btn">Apply now</button>
+            <label class="theme-toggle" aria-label="Toggle dark mode">
+                <input type="checkbox" id="themeToggle">
+                <span class="toggle-track">
+                    <span class="toggle-thumb"></span>
+                </span>
+            </label>
         </div>
     </header>
 
     <div class="page-heading">
-        <h2>Open positions</h2>
-        <p>Current vacancies across engineering, data, business, and marketing — updated regularly.</p>
+        <h2>Find your dream job and your dream company</h2>
     </div>
 
     <div class="positions-layout">
-        <div class="department-filter">
-            <p class="filter-label">DEPARTMENT</p>
-            <button class="dept-item active" data-dept="all">
-                <span>All roles</span>
-            </button>
-            <button class="dept-item" data-dept="Software Engineering">
-                <span>Software Engineering</span>
-            </button>
-            <button class="dept-item" data-dept="Data Science">
-                <span>Data Science</span>
-            </button>
-            <button class="dept-item" data-dept="Business Analysis">
-                <span>Business Analysis</span>
-            </button>
-            <button class="dept-item" data-dept="Marketing">
-                <span>Marketing</span>
-            </button>
-        </div>
-
         <div class="job-listings">
             <div class="listings-header">
                 <h3>All roles</h3>
-                <div class="experience-filter">
-                    <span>Experience</span>
-                    <select id="experienceSelect">
-                        <option value="all">All levels</option>
-                        <option value="internship">Internship</option>
-                        <option value="junior">Junior · 0–2 yrs</option>
-                        <option value="mid">Mid-level · 3–4 yrs</option>
-                        <option value="senior">Senior · 5+ yrs</option>
-                    </select>
-                </div>
             </div>
 
-            <div class="job-card" data-dept="Software Engineering" data-experience="senior">
-                <div class="job-info">
-                    <h4>Senior Software Engineer</h4>
-                    <p>Stripe &nbsp;·&nbsp; San Francisco, CA &nbsp;·&nbsp; Full-time</p>
+            <div class="filter-bar">
+                <div class="filter-dropdown" data-filter-name="jobType">
+                    <button type="button" class="filter-btn">
+                        Job Type
+                        <span class="chevron">&#9662;</span>
+                    </button>
+                    <div class="filter-panel">
+                        <label><input type="checkbox" value="Full-Time"> Full-Time</label>
+                        <label><input type="checkbox" value="Contract"> Contract</label>
+                        <label><input type="checkbox" value="Internship"> Internship</label>
+                        <label><input type="checkbox" value="Part-Time"> Part-Time</label>
+                    </div>
                 </div>
-                <div class="job-meta">
-                    <span class="salary">$165k – $210k</span>
-                    <button class="icon-btn">☐</button>
-                    <button class="apply-job-btn">Apply</button>
+
+                <div class="filter-dropdown" data-filter-name="modality">
+                    <button type="button" class="filter-btn">
+                        Modality
+                        <span class="chevron">&#9662;</span>
+                    </button>
+                    <div class="filter-panel">
+                        <label><input type="checkbox" value="In-office"> In-office</label>
+                        <label><input type="checkbox" value="Remote"> Remote</label>
+                    </div>
                 </div>
+
+                <div class="filter-dropdown" data-filter-name="experience">
+                    <button type="button" class="filter-btn">
+                        Experience
+                        <span class="chevron">&#9662;</span>
+                    </button>
+                    <div class="filter-panel">
+                        <label><input type="checkbox" value="junior"> Junior &middot; 0&ndash;2 yrs</label>
+                        <label><input type="checkbox" value="mid"> Mid-level &middot; 3&ndash;4 yrs</label>
+                        <label><input type="checkbox" value="senior"> Senior &middot; 5+ yrs</label>
+                    </div>
+                </div>
+
+                <a href="#" class="clear-filters" id="clearFilters">Clear</a>
             </div>
 
-            <div class="job-card" data-dept="Software Engineering" data-experience="mid">
-                <div class="job-info">
-                    <h4>Frontend Engineer</h4>
-                    <p>Airbnb &nbsp;·&nbsp; Remote (US) &nbsp;·&nbsp; Full-time</p>
-                </div>
-                <div class="job-meta">
-                    <span class="salary">$140k – $180k</span>
-                    <button class="icon-btn">☐</button>
-                    <button class="apply-job-btn">Apply</button>
-                </div>
-            </div>
+            <p class="jobs-count" id="jobsCount"></p>
 
-            <div class="job-card" data-dept="Software Engineering" data-experience="senior">
-                <div class="job-info">
-                    <h4>Backend Engineer, Platform</h4>
-                    <p>Datadog &nbsp;·&nbsp; New York, NY &nbsp;·&nbsp; Full-time</p>
-                </div>
-                <div class="job-meta">
-                    <span class="salary">$150k – $195k</span>
-                    <button class="icon-btn">☐</button>
-                    <button class="apply-job-btn">Apply</button>
-                </div>
-            </div>
-
-            <div class="job-card" data-dept="Data Science" data-experience="mid" data-trending="true">
-                <div class="job-info">
-                    <h4>Data Scientist</h4>
-                    <p>Netflix &nbsp;·&nbsp; Los Gatos, CA &nbsp;·&nbsp; Full-time</p>
-                </div>
-                <div class="job-meta">
-                    <span class="salary">$155k – $205k</span>
-                    <button class="icon-btn">☐</button>
-                    <button class="apply-job-btn">Apply</button>
-                </div>
-            </div>
-
-            <div class="job-card" data-dept="Data Science" data-experience="senior" data-trending="true">
-                <div class="job-info">
-                    <h4>Machine Learning Engineer</h4>
-                    <p>Spotify &nbsp;·&nbsp; Remote (US) &nbsp;·&nbsp; Full-time</p>
-                </div>
-                <div class="job-meta">
-                    <span class="salary">$160k – $210k</span>
-                    <button class="icon-btn">☐</button>
-                    <button class="apply-job-btn">Apply</button>
-                </div>
-            </div>
-
-            <div class="job-card" data-dept="Business Analysis" data-experience="junior">
-                <div class="job-info">
-                    <h4>Business Analyst</h4>
-                    <p>Visa &nbsp;·&nbsp; Austin, TX &nbsp;·&nbsp; Full-time</p>
-                </div>
-                <div class="job-meta">
-                    <span class="salary">$95k – $125k</span>
-                    <button class="icon-btn">☐</button>
-                    <button class="apply-job-btn">Apply</button>
-                </div>
-            </div>
-
-            <div class="job-card" data-dept="Business Analysis" data-experience="senior">
-                <div class="job-info">
-                    <h4>Senior Business Analyst</h4>
-                    <p>Salesforce &nbsp;·&nbsp; Remote (US) &nbsp;·&nbsp; Full-time</p>
-                </div>
-                <div class="job-meta">
-                    <span class="salary">$115k – $150k</span>
-                    <button class="icon-btn">☐</button>
-                    <button class="apply-job-btn">Apply</button>
-                </div>
-            </div>
-
-            <div class="job-card" data-dept="Marketing" data-experience="mid">
-                <div class="job-info">
-                    <h4>Marketing Manager</h4>
-                    <p>Notion &nbsp;·&nbsp; San Francisco, CA &nbsp;·&nbsp; Full-time</p>
-                </div>
-                <div class="job-meta">
-                    <span class="salary">$110k – $145k</span>
-                    <button class="icon-btn">☐</button>
-                    <button class="apply-job-btn">Apply</button>
-                </div>
-            </div>
-
-            <div class="job-card" data-dept="Marketing" data-experience="junior">
-                <div class="job-info">
-                    <h4>Content Marketing Specialist</h4>
-                    <p>HubSpot &nbsp;·&nbsp; Remote (US) &nbsp;·&nbsp; Full-time</p>
-                </div>
-                <div class="job-meta">
-                    <span class="salary">$80k – $105k</span>
-                    <button class="icon-btn">☐</button>
-                    <button class="apply-job-btn">Apply</button>
-                </div>
+            <div class="job-cards-container" id="jobCardsContainer">
+                <!-- Job cards are generated from jobs.xml -->
             </div>
         </div>
     </div>
 
-    <script>
-        const deptButtons = document.querySelectorAll('.dept-item');
-        const experienceSelect = document.getElementById('experienceSelect');
-        const jobCards = document.querySelectorAll('.job-card');
-        const listingsTitle = document.querySelector('.listings-header h3');
-        const trendingLink = document.getElementById('trendingLink');
+    <footer class="site-footer">
+        <div class="footer-top">
+            <a href="HomePage.html" class="footer-brand">
+                <img src="icon.png" alt="TechUp.lk logo" class="footer-logo-mark">
+                <span class="footer-logo-text">TechUp.lk</span>
+            </a>
+            <p class="footer-address">Colombo, Sri Lanka</p>
+        </div>
 
-        let isTrendingMode = false;
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h4>TechUp.lk</h4>
+                <a href="HomePage.html" class="footer-link-active">Jobs</a>
+                <a href="#">For Employers</a>
+                <a href="#">Company</a>
+                <a href="#">Resources</a>
+            </div>
 
-        function applyFilters() {
-            if (isTrendingMode) {
-                listingsTitle.textContent = 'Trending';
-                jobCards.forEach(function (card) {
-                    card.style.display = card.getAttribute('data-trending') === 'true' ? 'flex' : 'none';
-                });
-                return;
-            }
+            <div class="footer-col">
+                <h4>Categories</h4>
+                <a href="HomePage.html?dept=Software%20Engineering">Software Engineering</a>
+                <a href="HomePage.html?dept=Data%20Science">Data Science</a>
+                <a href="HomePage.html?dept=Business%20Analysis">Business Analysis</a>
+                <a href="HomePage.html?dept=Marketing">Marketing</a>
+            </div>
 
-            const activeDeptButton = document.querySelector('.dept-item.active') || deptButtons[0];
-            activeDeptButton.classList.add('active');
-            const selectedDept = activeDeptButton.getAttribute('data-dept');
-            const selectedExperience = experienceSelect.value;
+            <div class="footer-col">
+                <h4>Help</h4>
+                <a href="#">Customer Support</a>
+                <a href="#">FAQ</a>
+            </div>
 
-            listingsTitle.textContent = selectedDept === 'all' ? 'All roles' : selectedDept;
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
 
-            jobCards.forEach(function (card) {
-                const deptMatches = selectedDept === 'all' || card.getAttribute('data-dept') === selectedDept;
-                const experienceMatches = selectedExperience === 'all' || card.getAttribute('data-experience') === selectedExperience;
-                card.style.display = (deptMatches && experienceMatches) ? 'flex' : 'none';
-            });
-        }
+        <div class="footer-bottom">
+            <p>&copy; 2026 TechUp.lk. All rights reserved.</p>
+        </div>
+    </footer>
 
-        deptButtons.forEach(function (button) {
-            button.addEventListener('click', function () {
-                isTrendingMode = false;
-                deptButtons.forEach(function (b) {
-                    b.classList.remove('active');
-                });
-                button.classList.add('active');
-                applyFilters();
-            });
-        });
-
-        experienceSelect.addEventListener('change', function () {
-            isTrendingMode = false;
-            applyFilters();
-        });
-
-        trendingLink.addEventListener('click', function (event) {
-            event.preventDefault();
-            isTrendingMode = true;
-            deptButtons.forEach(function (b) {
-                b.classList.remove('active');
-            });
-            experienceSelect.value = 'all';
-            applyFilters();
-        });
-    </script>
+    <script src="theme.js"></script>
+    <script src="HomePage.js"></script>
 
 </body>
 

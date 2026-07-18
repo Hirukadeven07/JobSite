@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="HomePage.css">
+    <script>
+        if (localStorage.getItem('techup-theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="HomePage.html" class="brand">
+                <img src="icon.png" alt="TechUp.lk logo" class="logo-box">
+                <h1>TechUp.lk</h1>
+            </a>
+
+            <nav id="categoryNav">
+                <a href="HomePage.html?dept=Software%20Engineering" data-dept="Software Engineering">Software
+                    Engineering</a>
+                <a href="HomePage.html?dept=Data%20Science" data-dept="Data Science">Data Science</a>
+                <a href="HomePage.html?dept=Business%20Analysis" data-dept="Business Analysis">Business Analysis</a>
+                <a href="HomePage.html?dept=Marketing" data-dept="Marketing">Marketing</a>
+            </nav>
+
+            <div class="search-wrap">
+                <input type="text" class="searchinput" placeholder="Search roles or companies">
+            </div>
+
+            <label class="theme-toggle" aria-label="Toggle dark mode">
+                <input type="checkbox" id="themeToggle">
+                <span class="toggle-track">
+                    <span class="toggle-thumb"></span>
+                </span>
+            </label>
+        </div>
+    </header>
+
+    <div class="job-detail-wrap">
+        <a href="HomePage.html" class="back-link">&larr; Back to all vacancies</a>
+
+        <div id="jobContent">
+            <!-- Job detail is generated from jobs.xml -->
+        </div>
+    </div>
+    <script src="theme.js"></script>
+    <script src="Job.js"></script>
+
+</body>
+
+</html>

@@ -3,18 +3,19 @@
     <job>
         <slug>senior-software-engineer</slug>
         <title>Senior Software Engineer</title>
-        <company>Stripe</company>
-        <location>San Francisco, CA</location>
+        <company>WSO2</company>
+        <location>Colombo, Sri Lanka</location>
         <department>Software Engineering</department>
         <experience>senior</experience>
         <trending>true</trending>
-        <salaryMin>165</salaryMin>
-        <salaryMax>210</salaryMax>
-        <employment>Full-time</employment>
+        <salaryMin>400000</salaryMin>
+        <salaryMax>600000</salaryMax>
+        <jobType>Full-Time</jobType>
+        <modality>In-office</modality>
         <posted>2 days ago</posted>
-        <aboutRole>Design and build reliable, high-scale payment APIs used by millions of businesses. You will own services end to end, from architecture through production operation, working alongside a small team of experienced backend engineers.</aboutRole>
+        <aboutRole>Design and build reliable, high-scale APIs and integration products used by enterprises around the world. You will own services end to end, from architecture through production operation, working alongside a small team of experienced backend engineers.</aboutRole>
         <responsibilities>
-            <item>Design and implement APIs that process payments at very high reliability and scale</item>
+            <item>Design and implement APIs and integration services that run at very high reliability and scale</item>
             <item>Own services end to end, from architecture and code review through on-call operation</item>
             <item>Partner with product and infrastructure teams to plan and scope new features</item>
             <item>Improve system performance, observability, and incident response practices</item>
@@ -31,11 +32,11 @@
             <item>Comfortable operating and debugging services in production</item>
         </requiredSkills>
         <desirableSkills>
-            <item>Experience working directly in the payments or fintech space</item>
+            <item>Experience working directly in the API management or integration space</item>
             <item>Familiarity with event-driven architectures and message queues</item>
         </desirableSkills>
         <whyJoinUs>
-            <item>Work on infrastructure that powers payments for millions of businesses worldwide</item>
+            <item>Work on infrastructure that powers API management and integration for enterprises worldwide</item>
             <item>Small, senior team with a high degree of autonomy and ownership</item>
             <item>Competitive salary, equity, and comprehensive health benefits</item>
         </whyJoinUs>
@@ -43,16 +44,17 @@
     <job>
         <slug>frontend-engineer</slug>
         <title>Frontend Engineer</title>
-        <company>Airbnb</company>
-        <location>Remote (US)</location>
+        <company>RootCode</company>
+        <location>Remote (Sri Lanka)</location>
         <department>Software Engineering</department>
         <experience>mid</experience>
         <trending>false</trending>
-        <salaryMin>140</salaryMin>
-        <salaryMax>180</salaryMax>
-        <employment>Full-time</employment>
+        <salaryMin>180000</salaryMin>
+        <salaryMax>280000</salaryMax>
+        <jobType>Full-Time</jobType>
+        <modality>Remote</modality>
         <posted>4 days ago</posted>
-        <aboutRole>Build fast, accessible interfaces used by hosts and guests around the world. You will work closely with design and product to ship polished, well-tested UI that millions of people rely on every day.</aboutRole>
+        <aboutRole>Build fast, accessible interfaces used by clients and their customers around the world. You will work closely with design and product to ship polished, well-tested UI that people rely on every day.</aboutRole>
         <responsibilities>
             <item>Build and maintain user-facing features in React across web and mobile web</item>
             <item>Collaborate with designers to translate mockups into accessible, responsive UI</item>
@@ -76,21 +78,22 @@
         </desirableSkills>
         <whyJoinUs>
             <item>Fully remote role with a team spread across US time zones</item>
-            <item>Your work directly shapes an experience used by millions of travelers</item>
+            <item>Your work directly shapes digital products used by clients across industries</item>
             <item>Generous learning stipend and travel credit</item>
         </whyJoinUs>
     </job>
     <job>
         <slug>backend-engineer-platform</slug>
         <title>Backend Engineer, Platform</title>
-        <company>Datadog</company>
-        <location>New York, NY</location>
+        <company>Sysco Labs</company>
+        <location>Colombo, Sri Lanka</location>
         <department>Software Engineering</department>
         <experience>senior</experience>
         <trending>false</trending>
-        <salaryMin>150</salaryMin>
-        <salaryMax>195</salaryMax>
-        <employment>Full-time</employment>
+        <salaryMin>350000</salaryMin>
+        <salaryMax>500000</salaryMax>
+        <jobType>Full-Time</jobType>
+        <modality>In-office</modality>
         <posted>1 week ago</posted>
         <aboutRole>Build the internal platform tooling that powers every product team's deployments. You will design APIs and infrastructure that other engineers rely on daily, with a direct impact on how quickly the whole company can ship.</aboutRole>
         <responsibilities>
@@ -123,16 +126,17 @@
     <job>
         <slug>data-scientist</slug>
         <title>Data Scientist</title>
-        <company>Netflix</company>
-        <location>Los Gatos, CA</location>
+        <company>H2O.ai</company>
+        <location>Colombo, Sri Lanka</location>
         <department>Data Science</department>
         <experience>mid</experience>
         <trending>true</trending>
-        <salaryMin>155</salaryMin>
-        <salaryMax>205</salaryMax>
-        <employment>Full-time</employment>
+        <salaryMin>220000</salaryMin>
+        <salaryMax>350000</salaryMax>
+        <jobType>Full-Time</jobType>
+        <modality>In-office</modality>
         <posted>3 days ago</posted>
-        <aboutRole>Analyze viewing and engagement data to guide product and content decisions. You will partner with engineering and product teams to turn insights into action that shapes what members see and how they experience the product.</aboutRole>
+        <aboutRole>Analyze product usage and customer data to guide machine learning and product decisions. You will partner with engineering and product teams to turn insights into action that shapes what customers experience.</aboutRole>
         <responsibilities>
             <item>Analyze engagement and viewing data to surface actionable product insights</item>
             <item>Design and evaluate experiments to test product and content hypotheses</item>
@@ -155,7 +159,7 @@
             <item>Background in media, streaming, or recommendation analytics</item>
         </desirableSkills>
         <whyJoinUs>
-            <item>Your insights influence decisions seen by hundreds of millions of members</item>
+            <item>Your insights help shape machine learning products used by enterprise customers worldwide</item>
             <item>Access to rich, large-scale datasets and strong analytics infrastructure</item>
             <item>Culture that values freedom and responsibility over process</item>
         </whyJoinUs>
@@ -163,18 +167,19 @@
     <job>
         <slug>machine-learning-engineer</slug>
         <title>Machine Learning Engineer</title>
-        <company>Spotify</company>
-        <location>Remote (US)</location>
+        <company>LSEG</company>
+        <location>Remote (Sri Lanka)</location>
         <department>Data Science</department>
         <experience>senior</experience>
         <trending>true</trending>
-        <salaryMin>160</salaryMin>
-        <salaryMax>210</salaryMax>
-        <employment>Full-time</employment>
+        <salaryMin>350000</salaryMin>
+        <salaryMax>550000</salaryMax>
+        <jobType>Contract</jobType>
+        <modality>Remote</modality>
         <posted>5 days ago</posted>
-        <aboutRole>Build and ship recommendation models that reach millions of listeners. You will own the full lifecycle from experimentation through production deployment, working closely with data scientists and backend engineers.</aboutRole>
+        <aboutRole>Build and ship machine learning models that power financial data and market analytics products used by institutions worldwide. You will own the full lifecycle from experimentation through production deployment, working closely with data scientists and backend engineers.</aboutRole>
         <responsibilities>
-            <item>Design, train, and evaluate models that power music and podcast recommendations</item>
+            <item>Design, train, and evaluate models that power financial data and market analytics products</item>
             <item>Own the full ML lifecycle from experimentation through production deployment</item>
             <item>Build infrastructure to monitor and retrain models safely at scale</item>
             <item>Collaborate with data scientists and product teams to define success metrics</item>
@@ -192,10 +197,10 @@
         </requiredSkills>
         <desirableSkills>
             <item>Experience with large-scale embedding or retrieval systems</item>
-            <item>Background working with audio, media, or recommendation data</item>
+            <item>Background working with financial, market, or time-series data</item>
         </desirableSkills>
         <whyJoinUs>
-            <item>Your models directly shape what millions of listeners discover every day</item>
+            <item>Your models directly support financial institutions that rely on our data every day</item>
             <item>Fully remote with flexible working hours across US time zones</item>
             <item>Strong ML infrastructure and a team that ships frequently</item>
         </whyJoinUs>
@@ -203,14 +208,15 @@
     <job>
         <slug>business-analyst</slug>
         <title>Business Analyst</title>
-        <company>Visa</company>
-        <location>Austin, TX</location>
+        <company>EY</company>
+        <location>Colombo, Sri Lanka</location>
         <department>Business Analysis</department>
         <experience>junior</experience>
         <trending>false</trending>
-        <salaryMin>95</salaryMin>
-        <salaryMax>125</salaryMax>
-        <employment>Full-time</employment>
+        <salaryMin>100000</salaryMin>
+        <salaryMax>160000</salaryMax>
+        <jobType>Full-Time</jobType>
+        <modality>In-office</modality>
         <posted>1 day ago</posted>
         <aboutRole>Support cross-functional teams by turning raw data into clear, actionable reporting. You will help track key business metrics and surface trends to leadership, working closely with finance, product, and operations teams.</aboutRole>
         <responsibilities>
@@ -243,14 +249,15 @@
     <job>
         <slug>senior-business-analyst</slug>
         <title>Senior Business Analyst</title>
-        <company>Salesforce</company>
-        <location>Remote (US)</location>
+        <company>IFS</company>
+        <location>Remote (Sri Lanka)</location>
         <department>Business Analysis</department>
         <experience>senior</experience>
         <trending>false</trending>
-        <salaryMin>115</salaryMin>
-        <salaryMax>150</salaryMax>
-        <employment>Full-time</employment>
+        <salaryMin>220000</salaryMin>
+        <salaryMax>350000</salaryMax>
+        <jobType>Part-Time</jobType>
+        <modality>Remote</modality>
         <posted>6 days ago</posted>
         <aboutRole>Lead analysis on strategic initiatives spanning multiple business units. You will define requirements, build models, and present recommendations directly to leadership on decisions that shape company strategy.</aboutRole>
         <responsibilities>
@@ -283,14 +290,15 @@
     <job>
         <slug>marketing-manager</slug>
         <title>Marketing Manager</title>
-        <company>Notion</company>
-        <location>San Francisco, CA</location>
+        <company>Enactor</company>
+        <location>Colombo, Sri Lanka</location>
         <department>Marketing</department>
         <experience>mid</experience>
         <trending>false</trending>
-        <salaryMin>110</salaryMin>
-        <salaryMax>145</salaryMax>
-        <employment>Full-time</employment>
+        <salaryMin>150000</salaryMin>
+        <salaryMax>230000</salaryMax>
+        <jobType>Full-Time</jobType>
+        <modality>In-office</modality>
         <posted>2 days ago</posted>
         <aboutRole>Own campaign strategy and execution across paid, lifecycle, and product marketing channels. You will work closely with design and product to grow adoption, reporting directly on what's driving results.</aboutRole>
         <responsibilities>
@@ -323,14 +331,15 @@
     <job>
         <slug>content-marketing-specialist</slug>
         <title>Content Marketing Specialist</title>
-        <company>HubSpot</company>
-        <location>Remote (US)</location>
+        <company>Atlas Labs</company>
+        <location>Remote (Sri Lanka)</location>
         <department>Marketing</department>
         <experience>junior</experience>
         <trending>false</trending>
-        <salaryMin>80</salaryMin>
-        <salaryMax>105</salaryMax>
-        <employment>Full-time</employment>
+        <salaryMin>40000</salaryMin>
+        <salaryMax>60000</salaryMax>
+        <jobType>Internship</jobType>
+        <modality>Remote</modality>
         <posted>3 days ago</posted>
         <aboutRole>Create blog posts, guides, and campaigns that help our audience grow their businesses. You will collaborate with design and SEO to plan a consistent content calendar that drives organic traffic and engagement.</aboutRole>
         <responsibilities>
