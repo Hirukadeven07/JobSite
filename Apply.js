@@ -13,7 +13,7 @@ function renderForm(job) {
         '<p class="apply-subtitle">' + job.title + ' at ' + job.company + '</p>' +
 
         '<form id="applyForm" novalidate>' +
-        '<label class="apply-label">Resume/CV <span class="required">*</span></label>' +
+        '<label class="apply-label" for="resumeInput">Resume/CV <span class="required">*</span></label>' +
         '<div class="upload-zone" id="uploadZone">' +
         '<div class="upload-icon">\u2191</div>' +
         '<p class="upload-text">Click or drag file to this area to upload your Resume</p>' +
@@ -22,25 +22,38 @@ function renderForm(job) {
         '</div>' +
         '<p class="field-error" id="resumeError"></p>' +
 
-        '<label class="apply-label">First Name <span class="required">*</span></label>' +
+        '<label class="apply-label" for="firstName">First Name <span class="required">*</span></label>' +
         '<input type="text" class="apply-input" id="firstName">' +
         '<p class="field-error" id="firstNameError"></p>' +
 
-        '<label class="apply-label">Last Name <span class="required">*</span></label>' +
+        '<label class="apply-label" for="lastName">Last Name <span class="required">*</span></label>' +
         '<input type="text" class="apply-input" id="lastName">' +
         '<p class="field-error" id="lastNameError"></p>' +
 
-        '<label class="apply-label">Email <span class="required">*</span></label>' +
+        '<label class="apply-label" for="email">Email <span class="required">*</span></label>' +
         '<input type="text" class="apply-input" id="email">' +
         '<p class="field-error" id="emailError"></p>' +
 
-        '<label class="apply-label">Phone Number <span class="required">*</span></label>' +
+        '<label class="apply-label" for="phone">Phone Number <span class="required">*</span></label>' +
         '<div class="phone-row">' +
         '<span class="phone-prefix">\u{1F1F1}\u{1F1F0} +94</span>' +
         '<input type="text" class="apply-input" id="phone">' +
         '</div>' +
         '<p class="field-error" id="phoneError"></p>' +
         '<p class="phone-hint">The hiring team may use this number to contact you about this job.</p>' +
+
+        '<label class="apply-label">Gender</label>' +
+        '<div class="radio-group">' +
+        '<label class="radio-option"><input type="radio" name="gender" value="Male"> Male</label>' +
+        '<label class="radio-option"><input type="radio" name="gender" value="Female"> Female</label>' +
+        '</div>' +
+
+        '<div class="checkbox-row">' +
+        '<label class="checkbox-option">' +
+        '<input type="checkbox" id="emailOptIn">' +
+        '<span>I would like to receive emails about new job opportunities</span>' +
+        '</label>' +
+        '</div>' +
 
         '<button type="submit" class="submit-application-btn">Submit Application</button>' +
 

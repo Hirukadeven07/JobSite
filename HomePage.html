@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <title>TechUp.lk &ndash; Find your dream job and your dream company</title>
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,11 +35,13 @@
             </nav>
 
             <div class="search-wrap">
-                <input type="text" class="searchinput" placeholder="Search roles or companies">
+                <label for="searchInput" class="sr-only">Search roles or companies</label>
+                <input type="text" id="searchInput" class="searchinput" placeholder="Search roles or companies">
             </div>
 
-            <label class="theme-toggle" aria-label="Toggle dark mode">
+            <label class="theme-toggle">
                 <input type="checkbox" id="themeToggle">
+                <span class="sr-only">Toggle dark mode</span>
                 <span class="toggle-track">
                     <span class="toggle-thumb"></span>
                 </span>
