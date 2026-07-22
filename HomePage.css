@@ -440,16 +440,33 @@ nav a.active {
     padding: 32px 32px 80px;
 }
 
-.back-link {
-    display: inline-block;
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
     font-size: 14px;
-    color: var(--text-secondary);
-    text-decoration: none;
     margin-bottom: 24px;
+    margin-left: -3px;
 }
 
-.back-link:hover {
+.breadcrumb a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.breadcrumb-sep {
+    color: var(--text-muted);
+}
+
+.breadcrumb-current {
     color: var(--text-primary);
+    font-weight: 600;
 }
 
 .job-header-row {

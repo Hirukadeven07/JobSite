@@ -1,9 +1,20 @@
 const params = new URLSearchParams(window.location.search);
 const slug = params.get('job');
 const jobContent = document.getElementById('jobContent');
+const breadcrumb = document.getElementById('breadcrumb');
+
+function renderBreadcrumb(job) {
+    breadcrumb.innerHTML =
+        '<a href="HomePage.html">Home</a>' +
+        '<span class="breadcrumb-sep">/</span>' +
+        '<a href="HomePage.html?dept=' + encodeURIComponent(job.department) + '">' + job.department + '</a>' +
+        '<span class="breadcrumb-sep">/</span>' +
+        '<span class="breadcrumb-current">' + job.title + '</span>';
+}
 
 function renderJob(job) {
     document.title = job.title + ' \u2013 TechUp.lk';
+    renderBreadcrumb(job);
 
     function bulletList(items) {
         return '<ul class="bullet-list">' + items.map(function (item) {
@@ -53,6 +64,7 @@ function renderJob(job) {
 }
 
 function renderNotFound() {
+    breadcrumb.innerHTML = '<a href="HomePage.html">Home</a>';
     jobContent.innerHTML = '<p class="job-not-found">We couldn\'t find that role. <a href="HomePage.html">Go back to all vacancies</a>.</p>';
 }
 
